@@ -18,10 +18,10 @@ from decouple import config
 
 
 class Var:
-    STORAGE_CHANNEL = config("STORAGE_CHANNEL", cast=int)
-    API_HASH = config("API_HASH")
-    APP_ID = config("APP_ID", cast=int)
-    BOT_TOKEN = config("BOT_TOKEN")
-    REDIS_URI = config("REDIS_URI", default=None)
-    REDIS_PASS = config("REDIS_PASSWORD", default=None)
-    OWNER_ID = config("OWNER_ID", cast=int)
+    STORAGE_CHANNEL = config("-1001903781867", cast=int)
+    API_HASH = config("23b6e6cf6384f716776366282e229dba")
+    APP_ID = config("7190769", cast=int)
+    BOT_TOKEN = config("6178177351:AAFm4LyxR5ziL6YLd0VE0Dqq8T2EBeeaheU")
+    REDIS_URI = config("redis-13928.c84.us-east-1-2.ec2.cloud.redislabs.com:13928", default=None)
+    REDIS_PASS = config("QWEasd123$", default=None)
+    OWNER_ID = config("5729559392", cast=int)
